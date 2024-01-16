@@ -1,15 +1,19 @@
 import React from "react";
-import Sidebar from "./components/sidebar";
-import Home from "./components/Home";
+import Sidebar from "./components/Sidebar";
+import Pipe from "./components/Pipe";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="flex h-screen w-screen flex-col sm:flex-row">
+    <div className="flex h-screen w-screen flex-col sm:flex-row " >
       <div>
         <Sidebar />
       </div>
       <div className="flex items-center justify-center h-full w-full">
-        <Home />
+        <Outlet/>
+      </div>
+      <div className="flex sm:items-end sm:mb-5 sm:mr-5 ">
+        <Pipe/>
       </div>
     </div>
   );
