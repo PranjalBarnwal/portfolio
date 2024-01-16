@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
 import Pipe from "./components/Pipe";
+import Card from "./components/Card";
 import { Outlet } from "react-router-dom";
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       </div>
       <div className="flex items-center justify-center h-full w-full">
         <Outlet/>
+      
       </div>
       <div className="flex sm:items-end sm:mb-5 sm:mr-5 ">
         <Pipe/>

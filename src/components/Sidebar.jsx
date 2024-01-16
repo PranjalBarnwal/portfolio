@@ -16,7 +16,7 @@ const Sidebar = () => {
           Home
         </NavLink>
         {isNavActive("/") && (
-          <img className="p-2 sm:w-[12rem] w-[2.5rem]" src={mushroom} alt="" />
+          <img className="p-2 sm:w-[16rem] w-[2.5rem]" src={mushroom} alt="" />
         )}
       </div>
       <div className="flex sm:flex-row flex-col w-full items-center">
@@ -24,7 +24,7 @@ const Sidebar = () => {
           Skills
         </NavLink>
         {isNavActive("/skills") && (
-          <img className="p-2 sm:w-[12rem] w-[2.5rem]" src={mushroom} alt="" />
+          <img className="p-2 sm:w-[15rem] w-[2.5rem]" src={mushroom} alt="" />
         )}
       </div>
       <div className="flex sm:flex-row flex-col w-full items-center">
@@ -32,7 +32,7 @@ const Sidebar = () => {
           Projects
         </NavLink>
         {isNavActive("/projects") && (
-          <img className="p-2 sm:w-[12rem] w-[2.5rem]" src={mushroom} alt="" />
+          <img className="p-2 sm:w-[13rem] w-[2.5rem]" src={mushroom} alt="" />
         )}
       </div>
       <div className="flex sm:flex-row flex-col w-full items-center">
@@ -40,7 +40,7 @@ const Sidebar = () => {
           About
         </NavLink>
         {isNavActive("/about") && (
-          <img className="p-2 sm:w-[12rem] w-[2.5rem]" src={mushroom} alt="" />
+          <img className="p-2 sm:w-[15rem] w-[2.5rem]" src={mushroom} alt="" />
         )}
       </div>
     </div>
