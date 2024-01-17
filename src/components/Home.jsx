@@ -3,12 +3,12 @@ import star from "./../assets/img/star.png";
 
 const Home = () => {
   return (
-    <div className="font-mario-hollow">
+    <div className="font-mario-hollow ml-10">
       <div className="sectionTop h-full flex flex-wrap flex-col">
         <p className="sm:text-lg text-sm ">I AM</p>
         <div className="flex my-2 sm:text-3xl text-red-500 text-[2rem] items-center">
           <div className="flex">
-            <p className="w-[250px] sm:w-[500px]">PRANJAL BARNWAL</p>
+            <p className="w-[250px] sm:w-[500px]"><span className="font-mario-filled">PRANJAL</span> BARNWAL</p>
           </div>
           <div className="flex mt-[-3rem] sm:mt-0">
             <img

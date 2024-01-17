@@ -6,3 +6,8 @@
     font-family: "mario-hollow";
     src: url("./assets/fonts/MarioFont.ttf");
 }
+
+@font-face{
+    font-family: "mario-filled";
+    src: url("./assets/fonts/MarioFontFilled.ttf");
+}

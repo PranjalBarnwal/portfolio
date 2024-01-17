@@ -32,9 +32,9 @@
         <div className="pipe flex justify-center cursor-pointer" onClick={()=>setShow(!show)}>
             <img className="sm:w-[5rem] w-[4rem]" src={pipe} alt="" />
         </div>
-        <div className="pipe absolute bottom-[-150px]" onClick={()=>setShow(!show)}>
+        {/* <div className="pipe absolute bottom-[-150px]" onClick={()=>setShow(!show)}>
             <img className="sm:w-[10rem]" src={bricks} alt="" />
-        </div>
+        </div> */}
         </div>
         </>
     );

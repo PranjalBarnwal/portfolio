@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        "mario-hollow":["mario-hollow"]
+        "mario-hollow":["mario-hollow"],
+        "mario-filled":["mario-filled"]
       }
     },
   },

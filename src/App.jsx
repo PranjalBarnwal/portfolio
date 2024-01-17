@@ -10,7 +10,7 @@ const App = () => {
       <div>
         <Sidebar />
       </div>
-      <div className="flex items-center justify-center h-full w-full">
+      <div className="flex items-center  h-full w-full">
         <Outlet/>
       
       </div>
